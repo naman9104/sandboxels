@@ -7,7 +7,14 @@ behaviors.WIRE = [
     "XX|CH:redstone_signal|XX",
     "XX|XX|XX"
 ];
-
+elements.endstone = {
+    color: ["#e5edc2", "#bec797"],
+    behavior: behaviors.WALL,
+    category: "minecraft",
+    state: "solid",
+    stateHigh: "molten_endstone",
+    tempHigh: 1265
+};
 // 2. Add the Elements
 elements.planks = {
     color: "#a67b5b",
